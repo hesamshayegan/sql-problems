@@ -1,3 +1,4 @@
+-- stratascratch
 select AVG(s.popularity) AS average_popularity, emp.location
 from facebook_employees emp
 JOIN facebook_hack_survey s

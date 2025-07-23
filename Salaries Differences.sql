@@ -1,3 +1,5 @@
+-- stratascratch 
+
 -- SELECT 
 -- ABS(
 --     (SELECT  MAX(salary) FROM db_employee WHERE department_id = 1)
