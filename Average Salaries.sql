@@ -1,4 +1,4 @@
--- stratascratch
+-- stratascratch - easy
 WITH avg_salaries AS
     (SELECT department, AVG(salary) AS avg_salary_of_dept
     FROM employee

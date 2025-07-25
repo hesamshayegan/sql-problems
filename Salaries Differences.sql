@@ -1,4 +1,4 @@
--- stratascratch 
+-- stratascratch - easy
 
 -- SELECT 
 -- ABS(

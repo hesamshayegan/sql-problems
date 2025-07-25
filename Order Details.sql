@@ -1,4 +1,4 @@
--- stratascratch 
+-- stratascratch - easy 
 SELECT c.first_name, o.order_date, o.order_details, o.total_order_cost
 FROM customers c
 JOIN orders o

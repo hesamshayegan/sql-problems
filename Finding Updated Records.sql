@@ -1,3 +1,5 @@
+-- stratascratch - easy
+
 -- WITH current_salaries AS 
 --     (select id, max(salary) as current_salary
 --     from ms_employee_salary

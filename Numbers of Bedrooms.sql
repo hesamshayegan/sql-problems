@@ -1,4 +1,4 @@
--- stratascratch
+-- stratascratch - easy
 SELECT  city,
         property_type,
         AVG(bathrooms) AS "average_bathrooms",

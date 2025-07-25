@@ -1,4 +1,4 @@
--- stratascratch
+-- stratascratch - easy
 -- use of CTE
 WITH max_profits AS
     (SELECT MAX(profits) AS max_profit
