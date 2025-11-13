@@ -1,3 +1,4 @@
+-- stratascratch - medium
 SELECT a.title,
       a.budget,
       CEILING((a.end_date - a.start_date) *
