@@ -25,3 +25,10 @@ SELECT
 -- No Join Condition: Because there's no JOIN keyword or ON condition specified, SQL assumes a CROSS JOIN. 
 -- A CROSS JOIN combines every row from the first "table" with every row from the second "table." In your case, each "table" only has one row, 
 -- so the result of the FROM clause is a single row containing both american_users and total_users as columns.
+
+
+-- revised
+SELECT CAST(COUNT(user_id) AS FLOAT) / (SELECT COUNT(*) FROM fb_active_users) * 100 AS user_percentage
+FROM fb_active_users
+WHERE country = 'USA'
+        AND status = 'open'
